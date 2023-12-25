@@ -5,7 +5,11 @@
 /* Your custom styles go here */
 
 li{
-  padding: 1px 7px;
+  padding: 1px 10px;
   background-color: beige;
-  border-radius: 5%;
+  border-radius: 7px;
+  cursor: pointer;
+}
+body{
+  background-color: burlywood;
 }

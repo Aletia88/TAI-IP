@@ -63,14 +63,15 @@ function Fasiledes() {
                 onRequestClose={closeModal}
                 style={{
                   content: {
-                    maxWidth: '600px',
+                    maxHeight:'600px',
+                    width: '600px',
                     margin: 'auto',
                     backgroundColor: '#fff',
                     borderRadius: '8px',
                   },
                 }}
               >
-                <img src={selectedPhoto.imageUrl} alt="Your Photo" />
+                <img src={selectedPhoto.imageUrl} className='object-cover w-full h-full' alt="Your Photo" />
               </Modal>
             )}
             <div className="p-4">
